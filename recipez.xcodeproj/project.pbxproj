@@ -13,6 +13,9 @@
 		91B9EEEB1C39231B009ECF57 /* recipez.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91B9EEE91C39231B009ECF57 /* recipez.xcdatamodeld */; };
 		91B9EEED1C39231B009ECF57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B9EEEC1C39231B009ECF57 /* Assets.xcassets */; };
 		91B9EEF01C39231B009ECF57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B9EEEE1C39231B009ECF57 /* LaunchScreen.storyboard */; };
+		91B9EEFC1C3936F7009ECF57 /* RecipeClass+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9EEFA1C3936F7009ECF57 /* RecipeClass+CoreDataProperties.swift */; };
+		91B9EEFD1C3936F7009ECF57 /* RecipeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9EEFB1C3936F7009ECF57 /* RecipeClass.swift */; };
+		91B9EEFF1C3938E8009ECF57 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9EEFE1C3938E8009ECF57 /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		91B9EEEC1C39231B009ECF57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91B9EEEF1C39231B009ECF57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91B9EEF11C39231B009ECF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B9EEFA1C3936F7009ECF57 /* RecipeClass+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "RecipeClass+CoreDataProperties.swift"; path = "../RecipeClass+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		91B9EEFB1C3936F7009ECF57 /* RecipeClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeClass.swift; path = ../RecipeClass.swift; sourceTree = "<group>"; };
+		91B9EEFE1C3938E8009ECF57 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,10 @@
 		91B9EEE11C39231B009ECF57 /* recipez */ = {
 			isa = PBXGroup;
 			children = (
+				91B9EEF91C3936A1009ECF57 /* Controller */,
+				91B9EEF81C39369D009ECF57 /* View */,
+				91B9EEF71C393697009ECF57 /* Model */,
 				91B9EEE21C39231B009ECF57 /* AppDelegate.swift */,
-				91B9EEE41C39231B009ECF57 /* ViewController.swift */,
 				91B9EEE61C39231B009ECF57 /* Main.storyboard */,
 				91B9EEEC1C39231B009ECF57 /* Assets.xcassets */,
 				91B9EEEE1C39231B009ECF57 /* LaunchScreen.storyboard */,
@@ -65,6 +73,31 @@
 				91B9EEE91C39231B009ECF57 /* recipez.xcdatamodeld */,
 			);
 			path = recipez;
+			sourceTree = "<group>";
+		};
+		91B9EEF71C393697009ECF57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91B9EEFA1C3936F7009ECF57 /* RecipeClass+CoreDataProperties.swift */,
+				91B9EEFB1C3936F7009ECF57 /* RecipeClass.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		91B9EEF81C39369D009ECF57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91B9EEFE1C3938E8009ECF57 /* RecipeCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		91B9EEF91C3936A1009ECF57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91B9EEE41C39231B009ECF57 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91B9EEFD1C3936F7009ECF57 /* RecipeClass.swift in Sources */,
+				91B9EEFC1C3936F7009ECF57 /* RecipeClass+CoreDataProperties.swift in Sources */,
 				91B9EEE51C39231B009ECF57 /* ViewController.swift in Sources */,
+				91B9EEFF1C3938E8009ECF57 /* RecipeCell.swift in Sources */,
 				91B9EEE31C39231B009ECF57 /* AppDelegate.swift in Sources */,
 				91B9EEEB1C39231B009ECF57 /* recipez.xcdatamodeld in Sources */,
 			);
